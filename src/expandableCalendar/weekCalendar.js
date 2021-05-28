@@ -17,7 +17,7 @@ import Week from '../expandableCalendar/week';
 
 const commons = require('./commons');
 const UPDATE_SOURCES = commons.UPDATE_SOURCES;
-const NUMBER_OF_PAGES = 2; // must be a positive number
+const NUMBER_OF_PAGES = 10; // must be a positive number
 const applyAndroidRtlFix = commons.isAndroid && commons.isRTL;
 
 /**
